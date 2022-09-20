@@ -46,7 +46,7 @@ body{
     height: 684px;
     width: 1282px;
     margin-top: 8px;
-    /* margin-left: 8px; */
+    
 }
 
 .c1{
@@ -77,18 +77,23 @@ body{
     text-align: center;
     font-size: 25px;
     padding-top:10px;
-    float: right;
     margin-right: 70px;
     position: absolute;
     left: 73%;
+    
 }
 
 img{
     width: 223px;
     height: 135px;
-    padding-top: 26px;
+    padding-top: 25px;
+    
 }
 
+.bimage{
+    box-shadow: -3px 3px black;
+   
+}
 
 .c3{
     border: 8px solid red;
