@@ -1,14 +1,16 @@
-body{
+.container{
     background-color: grey;
     padding-left: 15px;
     padding-right: 15px;
-  
+    height:1600px;
+    width: 1299px;
+ 
    
 }
 
 .box1{
   
-    width: 400px;
+    width: 472px;
    height: 120px;
    font-weight:bold;
    font-style: italic;
@@ -18,12 +20,11 @@ body{
    position: relative;
    top:20px;
    left:322px;
-   font-size: 20px;
+   font-size: 24px;
    color: maroon;
-   text-shadow: 1.8px 1.8px 2px  purple ;
    border-radius: 20px;
    box-shadow: 8px 8px purple;
-   text-shadow: 1.8px 1.8px 2px  purple ;
+   text-shadow: 1.8px 1.8px 2px purple ;
    padding: 10px 0px 10px 0px;
    line-height: 1.8;
 
@@ -83,16 +84,13 @@ body{
     
 }
 
-img{
-    width: 223px;
-    height: 135px;
-    padding-top: 25px;
-    
-}
+
 
 .bimage{
     box-shadow: -3px 3px black;
-   
+    width: 223px;
+    height: 135px;
+    padding-top: 25px;
 }
 
 .c3{
@@ -132,14 +130,14 @@ img{
     box-sizing: border-box;
 }
 
-input[type=submit]{
+.submit{
     background-color: red;
     border-radius: 10px;
     width: 90px;
 }
-input[type=number]{
+.rateus{
     text-align: center;
-    width: 100px;
+    width: 111px;
 }
 
 .fourth{
@@ -157,8 +155,8 @@ input[type=number]{
     height: 80px;
     border-radius: 20px;
     position: fixed;
-    top:80%;
-    left:28%;
+    top:73%;
+    left:27%;
     color: rgb(131, 22, 22);
 }
 .dn1{
@@ -192,7 +190,6 @@ input[type=number]{
     align-content: center;
     position: absolute;
     left: 20%;
-    /* padding: 0px 0px 0px 0px; */
     margin-top: 26px;
 }
 
@@ -202,9 +199,10 @@ input[type=number]{
     background-color: rgb(255, 255, 130);
     text-align: center;
     width: 350px;
+    height: 244px;
     float: left;
     font-style: italic;
-    margin-top: -7px;
+    margin-top: 1px;
     margin-left: 3px;
     padding-top: 15px;
     padding-bottom: 5px;
@@ -221,7 +219,7 @@ input[type=number]{
     margin-top: 13px;
     margin-left: 3px;
     padding-top: 10px;
-    /* padding-bottom: 0px; */
+    
    
     
 }
